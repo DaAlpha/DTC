@@ -1,2 +1,1 @@
-# DTC
-An insanely simple and useless script for JC2MP that prints the distance to the map center.
+For more information about this script, go to https://www.jc-mp.com/forums/index.php/topic,5028.0.html
