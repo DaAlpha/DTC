@@ -13,4 +13,4 @@ function DTC:LocalPlayerChat(args)
   end
 end
 
-local dtc = DTC()
+DTC()
