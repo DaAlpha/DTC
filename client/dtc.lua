@@ -6,7 +6,7 @@ function DTC:__init()
 end
 
 function DTC:LocalPlayerChat(args)
-  if args.text:lower() == "/dtc" then
+  if args.text:match("^(%S*)"):lower() == "/dtc" then
     Chat:Print("Distance to map center: ", Color.White, string.format("%.2f km",
       LocalPlayer:GetPosition():Distance2D(Vector3.Zero) / 1000), Color.RoyalBlue)
     return false
